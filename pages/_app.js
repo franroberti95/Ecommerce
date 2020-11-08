@@ -1,7 +1,21 @@
-import '../styles/globals.css'
+import React from "react"
+import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import theme from "../theme/theme";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+`;
 
-export default MyApp
+const App = ({ Component, pageProps }) =>
+    <>
+        <GlobalStyle />
+        <ThemeProvider theme={theme}>
+            <Component {...pageProps} />
+        </ThemeProvider>
+    </>;
+
+export default App
