@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccdff836-a544-4d3f-88b8-110658168ccb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,21 +17,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Breadcrum/Breadcrum.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/Product/Product.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="238">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -45,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/ColorPicker/ColorPicker.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="799">
               <caret line="51" selection-start-line="51" selection-end-line="57" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -57,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Search/Search.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="289">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -66,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/IconCounter/IconCounter.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -74,6 +57,15 @@
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -93,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/tests.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="204">
               <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -158,7 +150,6 @@
         <option value="$PROJECT_DIR$/assets/product1.svg" />
         <option value="$PROJECT_DIR$/theme/theme.js" />
         <option value="$PROJECT_DIR$/pages/tests.js" />
-        <option value="$PROJECT_DIR$/pages/index.tsx" />
         <option value="$PROJECT_DIR$/components/Stars/Stars.tsx" />
         <option value="$PROJECT_DIR$/next.config.js" />
         <option value="$PROJECT_DIR$/components/ColorPicker/ColorPicker.tsx" />
@@ -170,12 +161,13 @@
         <option value="$PROJECT_DIR$/components/IconCounter/IconCounter.js" />
         <option value="$PROJECT_DIR$/pages/tests.tsx" />
         <option value="$PROJECT_DIR$/components/IconCounter/IconCounter.tsx" />
+        <option value="$PROJECT_DIR$/pages/index.tsx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="214" />
+    <option name="x" value="217" />
+    <option name="y" value="139" />
     <option name="width" value="1085" />
     <option name="height" value="712" />
   </component>
@@ -184,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +234,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,17 +279,18 @@
       <workItem from="1604704564288" duration="274000" />
       <workItem from="1604713885917" duration="9298000" />
       <workItem from="1604762843452" duration="12826000" />
+      <workItem from="1604839011671" duration="694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28161000" />
+    <option name="totallyTimeSpent" value="28855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="214" width="1085" height="712" extended-state="0" />
+    <frame x="217" y="139" width="1085" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45272207" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45272207" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -312,7 +305,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.417962" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.417962" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -322,9 +315,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/icons/Search.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/icons/Search.d.ts" />
     <entry file="file://$PROJECT_DIR$/components/.editorconfig" />
     <entry file="file://$PROJECT_DIR$/localization/localization.tsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -340,14 +331,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/globals.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/Home.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1301" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/globals.css" />
+    <entry file="file://$PROJECT_DIR$/styles/Home.module.css" />
     <entry file="file://$PROJECT_DIR$/components/Rate/Rate.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -401,9 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/next.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -424,31 +406,9 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/_document.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/product1.svg">
-      <provider selected="true" editor-type-id="images" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Breadcrum/Breadcrum.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="204">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -458,14 +418,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/Product/Product.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="238">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ColorPicker/ColorPicker.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="51" selection-start-line="51" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Search/Search.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="289">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -483,23 +453,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/ColorPicker/ColorPicker.tsx">
+    <entry file="file://$PROJECT_DIR$/pages/tests.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="51" selection-start-line="51" selection-end-line="57" />
+        <state relative-caret-position="204">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tests.tsx">
+    <entry file="file://$PROJECT_DIR$/assets/images/product1.svg">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -510,6 +492,13 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
