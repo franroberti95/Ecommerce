@@ -21,7 +21,7 @@ const Test = () =><div>
             <SearchInput placeholder={"Search"} onSearch={opt => console.log(opt)}/>
             <IconCounter counter={2}/>
             <Breadcrumb items={[{label: "test", value: 1}, {label: "test2", value: 2}, {label: "test3", value: 3}]}/>
-            <Rate itemRate={4} totalRate={5} votesQuantity={18}/>
+            <Rate itemRate={4} totalRate={5} />
             <Price price={5} oldPrice={6}/>
             <ColorPicker
                 options={[{value: 1, label: "Black", color: "#000"}, {value: 2, label: "Other", color: "#f43"}]}

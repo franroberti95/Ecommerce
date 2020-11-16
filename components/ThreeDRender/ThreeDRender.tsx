@@ -1,19 +1,20 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import styled from "styled-components"
 import ReactDOM from "react-dom";
 import * as THREE from "three";
 
-class ThreeDRender extends React.Component {
-    componentDidMount() {
+const ThreeDRender = () => {
+    const mount = useRef(null);
+
+    useEffect(() =>{
         let GLTFLoader = require('three/examples/jsm/loaders/GLTFLoader').GLTFLoader;
         let OrbitControls = require('three/examples/jsm/controls/OrbitControls').OrbitControls;
         let scene = new THREE.Scene();
 
         let camera = new THREE.PerspectiveCamera( 13, window.innerWidth/window.innerHeight, 0.1, 1000 );
         let renderer = new THREE.WebGLRenderer();
-        console.log(this.mount)
-        renderer.setSize( this.mount.offsetWidth , this.mount.offsetHeight );
-        this.mount.appendChild( renderer.domElement );
+        renderer.setSize( mount.current.offsetWidth , mount.current.offsetHeight );
+        mount.current.appendChild( renderer.domElement );
         let geometry = new THREE.BoxGeometry( 1, 1, 1 );
         let material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
         let cube = new THREE.Mesh( geometry, material );
@@ -45,9 +46,9 @@ class ThreeDRender extends React.Component {
         scene.add(lights[0]);
         scene.add(lights[1]);
         scene.add(lights[2]);
-        this.loader = new GLTFLoader();
+        let loader = new GLTFLoader();
 
-        this.loader.load("./renders/nike.glb", gltf => {
+        loader.load("./renders/nike.glb", gltf => {
 
                 // ADD MODEL TO THE SCENE
                 sneaker = gltf.scene;
@@ -58,15 +59,15 @@ class ThreeDRender extends React.Component {
             error => {
             });
 
-    }
-    render() {
-        return (
-            <div style={{width:"100%",height: "100%",maxWidth: "100vw"}} ref={ref => (this.mount = ref)} />
-        )
-    }
-}
+    },[]);
 
-ThreeDRender.propTypes = {
+    return (
+        <div style={{width:"100%",height: "100%",maxWidth: "100vw"}} ref={mount} />
+    )
 };
 
+/*
+ThreeDRender.propTypes = {
+};
+*/
 export default ThreeDRender
