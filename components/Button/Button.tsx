@@ -27,7 +27,9 @@ const Button = ({children = null, loading = false, disabled = false, onClick = n
 
     return <ButtonContainer disabled={loading || disabled} onClick={createRipple}>
         {loading && <Loader/>}
-        {children}
+        <StyledButtonText>
+            {children}
+        </StyledButtonText>
     </ButtonContainer>
 };
 
@@ -38,21 +40,24 @@ const ripple = keyframes`
     }
 `;
 
-const ButtonContainer = styled.button`
+const StyledButtonText = styled.p`
+    margin: 0;
+`;
 
+const ButtonContainer = styled.button`
     position: relative;
     overflow: hidden;
     transition: background 400ms;
     color: #fff;
-    background-color: #6200ee;
-    padding: 1rem 2rem;
+    background-color: black;
+    padding: 0.5rem 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     outline: 0;
     border: 0;
-    border-radius: 100px;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3); /* black with 30% opacity */
-    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+        cursor: pointer;
     
     &[disabled]{
         cursor: default;

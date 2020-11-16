@@ -1,26 +1,29 @@
 import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types";
-import Picker from "../Picker/Picker";
 import strings from "../../localization/localization";
+import theme from "../../theme/theme";
 
 const ColorPicker = ({value = null, onChange = null, options = []}) =>
-    <Picker
-        label={strings.color}
-        inputComponent={
-            <PickerContainer>
-                {
-                    options.map(opt =>
-                        <ColorCircle key={opt.value} color={opt.color} onClick={()=> onChange(opt)}>
-                            {value === opt.value ? <StyledCheck className="material-icons">check</StyledCheck>:""}
-                        </ColorCircle>)
-                }
-            </PickerContainer>
+    <PickerContainer>
+        <ColorLabel>{strings.colors}</ColorLabel>
+        {
+            options.map( opt => <ColorCircle active={opt.value === value} color={opt.color}/>)
         }
-    />;
+    </PickerContainer>;
 
-const StyledCheck = styled.i`
-    color: white;
+const ColorLabel = styled.p`
+    color: ${theme.colors.lightGrey1};
+    font-size: 1.5em;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+`;
+
+const PickerContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 `;
 
 const ColorCircle = styled.div`
@@ -38,16 +41,6 @@ const ColorCircle = styled.div`
     &:last-child{
         margin-right: 0;
     }
-`;
-
-const PickerContainer = styled.div`
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #EDEDED;
-    box-sizing: border-box;
-    border-radius: 21px;
-    width: fit-content;
-    padding: 9px 10px;
 `;
 
 ColorPicker.propTypes = {
